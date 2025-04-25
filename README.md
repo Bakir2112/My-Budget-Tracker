@@ -22,6 +22,13 @@ A simple Python app to track income/expenses with SQLite database and visual rep
 
 ---
 
+❓ FAQ
+Q: How do I reset my data?
+→ Delete the data/budget.db file.
+
+Q: Graphs won't show?
+→ Run: python -m pip install --upgrade --prefer-binary matplotlib
+
 ## 🚀 Quick Start  
 
 ### Windows Users:  
@@ -42,9 +49,3 @@ pip install -r requirements.txt
 python main.py
 
 
-❓ FAQ
-Q: How do I reset my data?
-→ Delete the data/budget.db file.
-
-Q: Graphs won't show?
-→ Run: python -m pip install --upgrade --prefer-binary matplotlib
